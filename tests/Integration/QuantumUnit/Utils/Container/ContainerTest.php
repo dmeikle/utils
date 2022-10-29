@@ -39,7 +39,7 @@ class ContainerTest extends BaseTest
     public const KEY2 ='key2';
     public const BASIC_ARRAY2 = ['foo2' => 'bar2'];
     public const INVALID_KEY = 'invalid';
-    
+
     /**
      * @test
      * @return void
