@@ -1,7 +1,7 @@
 {
   "name": "quantumunit/utils",
-  "description": "description",
-  "minimum-stability": "stable",
+  "description": "utilities for other libraries",
+  "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
     {
@@ -15,6 +15,5 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
-  },
-  "version": "stable"
+  }
 }

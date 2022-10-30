@@ -18,7 +18,7 @@
  * @copyright Copyright 2022 Elentra Corporation. All Rights Reserved.
  */
 
-namespace QuantumUnit\Utils\Logging;
+namespace QuantumUnit\Utils\Logging\Contracts;
 
 
 /**
@@ -31,20 +31,58 @@ interface LoggingInterface
 {
     /**
      * @param string $message
-     * @return void
+     * @param array $context
+     * @return mixed
      */
-    public function addError(string $message): void;
+    public function addDebug($message, array $context = []): void;
 
     /**
      * @param string $message
-     * @return void
+     * @param array $context
+     * @return mixed
      */
-    public function addInfo(string $message): void;
+    public function addInfo($message, array $context = []):void;
 
     /**
      * @param string $message
-     * @return void
+     * @param array $context
+     * @return mixed
      */
-    public function addWarning(string $message): void;
+    public function addNotice($message, array $context = []): void;
+
+    /**
+     * @param string $message
+     * @param array $context
+     * @return mixed
+     */
+    public function addWarning($message, array $context = []): void;
+
+    /**
+     * @param string $message
+     * @param array $context
+     * @return mixed
+     */
+    public function addError($message, array $context = []): void;
+
+    /**
+     * @param string $message
+     * @param array $context
+     * @return mixed
+     */
+    public function addCritical($message, array $context = []): void;
+
+    /**
+     * @param string $message
+     * @param array $context
+     * @return mixed
+     */
+    public function addAlert($message, array $context = []): void;
+
+    /**
+     * @param string $message
+     * @param array $context
+     * @return mixed
+     */
+    public function addEmergency($message, array $context = []): void;
 
 }
