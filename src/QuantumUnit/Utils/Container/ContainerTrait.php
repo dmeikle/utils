@@ -20,8 +20,8 @@ namespace QuantumUnit\Utils\Container;
 /**
  * ContainerTrait
  *
- * @author Organization: Elentra Corp
- * @author Developer: David Meikle <david.meikle@elentra.com>
+ * @author Organization: Quantum Unit
+ * @author Developer: David Meikle <david@quantumunit.com>
  */
 trait ContainerTrait
 {

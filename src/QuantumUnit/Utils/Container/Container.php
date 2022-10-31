@@ -22,8 +22,8 @@ use QuantumUnit\Utils\Container\Exceptions\ObjectNotFoundException;
 /**
  * Container
  *
- * @author Organization: Elentra Corp
- * @author Developer: David Meikle <david.meikle@elentra.com>
+ * @author Organization: Quantum Unit
+ * @author Developer: David Meikle <david@quantumunit.com>
  */
 class Container 
 {
