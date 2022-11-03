@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "symfony/monolog-bundle": "^3.8",
+    "symfony/monolog-bundle": "^2.6",
     "symfony/yaml": "^6.1"
   },
   "require-dev": {
