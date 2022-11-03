@@ -2,6 +2,7 @@
   "name": "quantumunit/utils",
   "description": "utilities for other libraries",
   "minimum-stability": "stable",
+  "prefer-stable": true,
   "license": "proprietary",
   "authors": [
     {
